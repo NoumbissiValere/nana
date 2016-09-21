@@ -1,0 +1,337 @@
+
+    <!-- Header Carousel -->
+    <header id="myCarousel" class="carousel slide">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+            <li data-target="#myCarousel" data-slide-to="4"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item">
+                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide One');">
+                    <img src="images/1001.jpg" alt="ones and zeros" width="1320" height="350">
+                </div>
+                <div class="carousel-caption">
+                    <h2>ABEBOH</h2>
+                    <p>A goal is a vision with a plan and a date line</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Two');">
+                    <img src="images/drive.jpg" alt="logo" width="1350" height="350">
+                </div>
+                <div class="carousel-caption">
+                    <h2>Caption 2</h2>
+                </div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Three');">
+                    <img src="images/os.jpg" alt="logo" width="1350" height="350">
+                </div>
+                <div class="carousel-caption">
+                    <h2>Caption 3</h2>
+                </div>
+            </div>
+            <div class="item active">
+                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Three');">
+                    <img src="images/ABEBOH.jpg" alt="logo"width="1350" height="350" >
+                </div>
+                <div class="carousel-caption">
+                    <h2>Caption 3</h2>
+                </div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Three');">
+                    <img src="images/lock.jpg" alt="logo"width="1350" height="350">
+                </div>
+                <div class="carousel-caption">
+                    <h2>Caption 3</h2>
+                </div>
+            </div>
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" data-slide="prev">
+            <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" data-slide="next">
+            <span class="icon-next"></span>
+        </a>
+    </header>
+    <div class = "container">
+<!-- Marketing Icons Section -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header" style="text-align:center">
+                    Welcome to ABEBOH<br>
+                    <em style="color:#FF9900">A GOAL IS A DREAM WITH A PLAN AND A DATELINE</em>
+                </h1>
+            </div>
+            <div class="col-md-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4><i class="fa fa-fw fa-check"></i>Technologies We Uses</h4>
+                    </div>
+                    <div class="panel-body">
+                        <p>
+                            At ABEBOH, we make sure that our developers are updated with the introduction of new Technologies.<br>
+                            We Use modern technologies to develop our products and projects.
+                            Such technologies include :<br>
+                            <em style ="color:#FF9900">Hardware projects</em> <br>
+                            <li>use of embedded Operating system e.g Mynewt OS.</li>
+                            <li>Use of Latest version of Microcontrollers Boards</li>
+                            
+                            <em style ="color:#FF9900">Web Development</em><br>
+                            Use of design frameworks such as ; 
+                            <li>CSS5 with web and Mobile Responsiveness</li> 
+                            <li>Brootsrap Framework 3</li>
+                            <li>AngularJs </li>
+                            <li>Jquery</li> 
+                            <li>The Most Secured and Complex Yii2 </li> <li> The Most Widely Used Laravel5 </li> <li>etc</li>
+                            To read more click below......<br><br>
+                        </p>
+                        <a href="#abebohtech" class=" btn btn-warning button">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4><i class="fa fa-fw fa-gift"></i> Services We Offer</h4>
+                    </div>
+                    <div class="panel-body">
+                        <p>ABEBOH is a Technology Company which provides technology services  of all types.<br>
+                           Here, we develop softwares. Some of which include:<br>
+                            Websites of any type and size depending on the taste of our customers.<br>
+                            Mobile apps of any type amd size for Android, mac, Firefox OS, mobile responsive apps etc.<br>
+                            We develop desktop apps of any type and Size.<br>
+                            To conclude, we ARE SOFTWARE EXPERTS.<br>
+
+                        <em style="color:#FF9900">Secondly, </em>ABEBOH is also a hardware development Company.<br>
+                            We develop hardware projects such as <br>
+                            <li>Automated systems </li>
+                            <li>Embedded applications</li> 
+                            <li>Applications for the Internet of Things </li>
+                             So we  bring every aspect of life into Computing and the digital world.<br>
+                             To Read More click Below.....<br>
+
+                    </p>
+                    
+                        <a href="#" class="btn btn-warning button">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4> <i class="fa fa-fw fa-compass" > </i>About ABEBOH</h4>
+                        </div>
+                       <div class="panel-body">
+                        <p>
+                            ABEBOH is a technology Company located in Buea also known by  its technology acroymn
+                              Silicon Mountain.<br>
+                             ABEBOH is Located at Mile 18 just in the Up story building behind the mile 18 petrol station<br>
+                             It is located along the Douala-Buea-Kumba Highway just after Mile 17 Buea before Muyua<br>
+                             ABEBOH is a kom word from the grassfields of Bamenda which literally means <br>
+                             <em style="color:#FF9900">"IT IS GOD THAT SAID IT"<br></em>
+                             ABEBOH has a motto</br> 
+                             <em style="color:#FF9900">"A GOLD IS A DREAM WITH A PLAN AND A DATELINE"<br></em>
+                             ABEBOH has a vision which is <br>
+                              <em style="color:#FF9900"> "Technology should be Available and Affordable to everyone"<br></em>
+                              At ABEBOH, we Trust and belief in our strong Engineering, Design, Management teams etc.<br>
+                              Our Customers is the our Priority<br> 
+                              To read More Click Below......<br>
+                        </p>
+                  
+                        <a href="#" class="btn btn-warning button">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /.row -->
+
+</div>
+
+<!-- /.section-colored -->
+
+<div class="section">
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2>Display Some Work on the Home Page Portfolio</h2>
+                <hr>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6">
+                <a href="https://rosalieper.github.io/angularjsApp/#/portfolio-item">
+                    <img class="img-responsive img-home-portfolio" src="images/web.jpg" height="100" width="100">
+                    <p>Building Web apps</p>
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6">
+                <a href="https://rosalieper.github.io/angularjsApp/#/portfolio-item">
+                    <img class="img-responsive img-home-portfolio" src="images/machine.jpg" height="150" width="150">
+                    <p>Building hardwares and consols</p>
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6">
+                <a href="https://rosalieper.github.io/angularjsApp/#/portfolio-item">
+                    <img class="img-responsive img-home-portfolio" src="images/star.jpg" height="150" width="150">
+                    <p>building social medias softwares</p>
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6">
+                <a href="https://rosalieper.github.io/angularjsApp/#/portfolio-item">
+                    <img class="img-responsive img-home-portfolio" src="images/project.jpg" height="150" width="150">
+                    <p>Many more projects</p>
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6">
+                <a href="https://rosalieper.github.io/angularjsApp/#/portfolio-item">
+                    <img class="img-responsive img-home-portfolio" src="images/web-design.jpg" height="250" width="150">
+                    <p>Designing app</p>
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6">
+                <a href="https://rosalieper.github.io/angularjsApp/#/portfolio-item">
+                    <img class="img-responsive img-home-portfolio" src="images/machine-learning.jpg" height="60" width="150">
+                    <p>we are verse with machine learning and artificial inteligence</p>
+                </a>
+            </div>
+        </div>
+        <!-- /.row -->
+
+    </div>
+    <!-- /.container -->
+
+</div>
+<!-- /.section -->
+
+<div class="section-colored">
+
+    <div class="container">
+
+        <div class="row" id="abebohtech">
+            <div class="col-lg-6 col-md-6 col-sm-6">
+                <h2>ABEBOH TECHNOLOGIES Include:</h2>
+                <p></p>
+                <ul>
+                     At ABEBOH, we make sure that our developers are updated with the introduction of new Technologies.<br>
+                            We Use modern technologies to develop our products and projects.<br>
+                            Such technologies include :
+                            <h3 style ="color:#FF9900">Hardware projects</h3>
+                            <li>use of embedded Operating system e.g Mynewt OS.</li>
+                            <li>Use of Latest version of Microcontrollers Boards.</li>
+                            <li>Use of Stardardize network stacks and Chips</li>
+                            <li>High Use of Arduino Products which are open source hence a large support </li>
+                            <h3 style ="color:#FF9900">Software Development</h3>
+                             Use of design frameworks such as
+                    <li>Bootstrap 3 Framework</li>
+                    <li>Mobile Responsive Design and CSS styles</li>
+                    <li>Predefined File Paths</li>
+                    <li>Working PHP Contact Page</li>
+                    <li>Font-Awesome fonts come pre-installed!</li>
+                    <li>100% <strong>reliable</strong> service</li>
+                    <li>machine learnig wares!</li>
+                    <li>Highly Used and very Secured PHP Frameworks eg Yii2</li>
+                    <li>Highly Used and authentication Frameworks eg Laravel</li>
+                    <li>The Use of Andriod Studio for the Developement Andriod Apps</li>
+                </ul>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6">
+                <img class="img-responsive" src="images/start.jpg" height="98%" width="100%">
+                 <img class="img-responsive" src="images/start.jpg" height="980%" width="100%">
+            </div>
+        </div>
+        <!-- /.row -->
+
+    </div>
+    <!-- /.container -->
+
+</div>
+<!-- /.section-colored -->
+
+<div class="section">
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-6">
+            <br><br><br><br><br>
+                <img class="img-responsive" src="images/our_team.jpg" height="100%" width="100%"><br>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6">
+                <h2>ABEBOH Team:</h2>
+                    <table class="table table-stripped">
+                    <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Post</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>NJUNGLE NGES BRIAN</td>
+                        <td>THE FOUNDER, CEO OF ABEBOH AND PROJECT MANAGAGER AT ABEBOH</td>
+                    </tr>
+                    <tr>
+                        <td>MONDJO PERSIDE ROSALIE</td>
+                        <td>THE CTO OF ABEBOH AND PROJECT MANAGER</td>
+                    </tr>
+                    <tr>
+                        <td>COURAGE ANGEH</td>
+                        <td>PROJECT MANAGER AT ABEBOH</td>
+                    </tr>
+                    <tr>
+                        <td>MOFORKENG STEPHEN</td>
+                        <td>PROJECT MANAGER AT ABEBOH</td>
+                    </tr>
+                    <tr>
+                        <td>FONGOH MARTIN</td>
+                        <td> ADVISORY COUNCIL MEMBER AND DEVELOPER </td>
+                    </tr>
+                     <tr>
+                        <td>MADAM NJUNG MARY</td>
+                        <td>ADVISORY COUNCIL MEMBER AND SPIRITUAL DIRECTOR</td>
+                    </tr>
+                     <tr>
+                        <td>DR. CHRYSANTUS NGES AKEM</td>
+                        <td>ADVISORY COUNCIL MEMBER AND CO-FOUNDER</td>
+                    </tr>
+                    </tbody>
+                    </table>
+                
+                    <li><strong>MANY MORE</strong>
+                    <p>We make sure we go above client expectation, we believe happy client is good bussiness and best advertisement, ABEBOH team welcome you!!!</p>
+              
+            </div>
+        </div>
+        <!-- /.row -->
+
+    </div>
+    <!-- /.container -->
+
+</div>
+<!-- /.section -->
+
+<div class="container">
+
+    <div class="row well">
+        <div class="col-lg-8 col-md-8">
+            <h4>'ABEBOH' is a tech company in Buea-Cameroon, composed of a strong team, Good at software and hardware development!</h4>
+            <p>For more information check the FAQ page or contact us, visit ABEBOH!</p>
+        </div>
+        <div class="col-lg-4 col-md-4">
+            <a class="btn btn-lg btn-warning pull-right" href="https://rosalieper.github.io/angularjsApp/#/contact">Contact Us!</a>
+        </div>
+    </div>
+    <!-- /.row -->
+
+</div>
+<!-- /.container -->
