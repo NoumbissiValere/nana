@@ -15,12 +15,15 @@ html, body {
 body {
     padding-top: 50px;
     padding-bottom: 20px;
+    background:#efefef url("../images/bkg-pat.png");
 }
+div.well{
+    height: 20%;
+ }
 
 .dropdown {
     cursor:pointer;
 }
-
 
 .img-home-portfolio,
 .img-customer,
@@ -35,13 +38,6 @@ img:hover{
     filter: alpha(opacity=100); /* For IE8 and earlier */
 
 }
-
-.img-home-portfolio:hover{
-    -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
-    filter: grayscale(100%);
-
-}
-
 .tab-pane {
     margin-top: 15px;
 }
@@ -67,22 +63,22 @@ img:hover{
     border: 1px solid #cccccc;
 }
 
-/* Half Page Height Carousel Customization */
+/* 3/4 Page Height Carousel Customization */
 .carousel {
-    height: 100%;
+    height: 75px;
 }
 
 .item,
 .active,
 .carousel-inner {
-    height: 100%;
+    height: 75%;
     width: 100%; /* Set width to 100% */
     margin: auto;
 }
 /* Home Page Carousel */
 
 header.carousel {
-    height: 100%;
+    height: 75%;
 }
 
 header.carousel .item,
@@ -134,21 +130,6 @@ header.carousel .fill {
     font-size: 8em;
 }
 
-/* Pricing Page Styles */
-.price {
-    font-size: 4em;
-}
-
-.price-cents {
-    vertical-align: super;
-    font-size: 50%;
-}
-
-.price-month {
-    font-size: 35%;
-    font-style: italic;
-}
-
 /* Footer Styles */
 footer {
     margin: 50px 0;
@@ -159,7 +140,7 @@ footer {
 
     .carousel {
         height: 70%;
-        /* increases the carousel height so it looks good on phones */
+        /* adjust the carousel height so it looks good on phones */
         display: none; 
         /* Hide the carousel text when the screen is less than 600 pixels wide */
     }
@@ -269,7 +250,7 @@ footer {
 }
 
 .button:after {
-    content: "abeboh";
+    content: "";
     font-size: 13px;
     background: #fff68f;
     display: block;
@@ -314,10 +295,6 @@ footer {
    -ms-transition: all 0.2s ease-in-out;
    transition: all 0.2s ease-in-out;
     }   
-    
-    
-    
-    
     
     /***** styling the flipping box**/
     #f1_container {
