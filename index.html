@@ -23,68 +23,59 @@
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-    
+
     <link rel="stylesheet" href="css/back-to-top.css" />
 
     <!-- styles for icons -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
     <!-- Our Website CSS Styles -->
-        <link rel="shortcut icon" href="../favicon.ico">
-        <!--link rel="stylesheet" type="text/css" href="css/normalize.css" /-->
-        <link rel="stylesheet" type="text/css" href="css/demo.css" />
-        <link rel="stylesheet" type="text/css" href="css/component.css" />
-        <link rel="stylesheet" href="css/main.css">
-        <!--[if IE]>
-        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
+		<link rel="shortcut icon" href="../favicon.ico">
+		<!--link rel="stylesheet" type="text/css" href="css/normalize.css" /-->
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<link rel="stylesheet" href="css/main.css">
+		<!--[if IE]>
+  		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
 </head>
-<body ng-app="tutorialWebApp" class="demo-1">
-<!--[if lt IE 7]>
-<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
-    your browser</a> to improve your experience.</p>
-<![endif]-->
+	<body ng-app="tutorialWebApp" class="demo-1">
+		<div id="container" class="intro-effect-push">
+			<header class="header">
+				<div class="bg-img"><img src="img/7.jpg" alt="Background Image"/></div>
+				<div class="title">
+					<h1 style="color:#FF9900">Stick to ABEBOH Till The End</h1>
+				</div>
+				<div>
+					<nav class="codrops-demos">
+						<div ng-include='"templates/header.html"'></div>
+					</nav>
+				</div>
+			</header>
+			<button class="trigger" id="trigger" style="color:#FF9900"  data-info=  "Click to Get Started With ABEBOH"><span>T</span></button>
+			<div>
+				<nav class="codrops-demos">
+						<div ng-include='"templates/header.html"'></div>
+				</nav>
+				<div ng-view></div>
+			</div>
+		</div>
+<a href="#0" class="cd-top">Top</a>
+			<!-- Vendor: Javascripts -->
+			<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+			<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 
-<!-- Our Website Content Goes Here -->
-<div id="container" class="intro-effect-push">
-            <header class="header">
-                <div class="bg-img"><img src="img/7.jpg" alt="Background Image"/></div>
-                <div class="title">
-                    <h1 style="color:#FF9900">Stick to ABEBOH Till The End</h1>
-                </div>
-                <div>
-                    <nav class="codrops-demos">
-                        <div ng-include='"templates/header.html"'></div>
-                    </nav>
-                </div>
-            </header>
-            <button class="trigger" id="trigger" style="color:#FF9900"  data-info=  "Click to Get Started With ABEBOH"><span>T</span></button>
-            <div>
-                <nav class="codrops-demos">
-                        <div ng-include='"templates/header.html"'></div>
-                </nav>
-                <div ng-view></div>
-            </div>
-</div>
-<div ng-include='"templates/footer.html"'></div>
+			<!-- Vendor: Angular, followed by our custom Javascripts -->
+			<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular.min.js"></script>
+			<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular-route.min.js"></script>
+			<script src="//cdn.tinymce.com/4/tinymce.min.js"></script>
+			<!-- Our Website Javascripts -->
 
-<!-- Vendor: Javascripts -->
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-
-<!-- Vendor: Angular, followed by our custom Javascripts -->
-<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular.min.js"></script>
-<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular-route.min.js"></script>
-<script src="//cdn.tinymce.com/4/tinymce.min.js"></script>
-            
-            <!-- Our Website Javascripts -->
-
-            <script src="js/main.js"></script>
-            <script src="js/back-to-top.js"></script>
-            <script src="js/modernizr.js"></script>
-        <!-- The landing page Javascripts -->
-        <script src="js/landing.js"></script>
-        <script src="js/classie.js"></script>
-
-</body>
+			<script src="js/main.js"></script>
+			<script src="js/back-to-top.js"></script>
+			<script src="js/modernizr.js"></script>
+		<!-- The landing page Javascripts -->
+		<script src="js/landing.js"></script>
+		<script src="js/classie.js"></script>
+	</body>
 </html>
