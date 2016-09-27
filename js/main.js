@@ -1,5 +1,5 @@
 /**
- *
+ * 
  */
 var app = angular.module('tutorialWebApp', [
   'ngRoute'
@@ -49,18 +49,4 @@ app.controller('PageCtrl', function (/* $scope, $location, $http */) {
   $('.tooltip-social').tooltip({
     selector: "a[data-toggle=tooltip]"
   })
-});
-
-$(document).ready(function(){
-   var scroll_start = 0;
-   var startchange = $('#startchange');
-   var offset = startchange.offset();
-     $(document).scroll(function() {
-        scroll_start = $(this).scrollTop();
-        if(scroll_start > 0) {
-            $(".navbar").css({'background-color':'rgb(24,24,24)','opacity':'0.8'});
-         } else {
-            $('.navbar').css('background-color', 'transparent');
-         }
-     });
 });
