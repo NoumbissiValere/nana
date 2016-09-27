@@ -1,8 +1,8 @@
-/* 
+/*
 Custom CSS for...
 'Modern Business' HTML Theme by Start Bootstrap
 
-All Start Bootstrap themes are licensed under Apache 2.0. 
+All Start Bootstrap themes are licensed under Apache 2.0.
 For more info and more free Bootstrap 3 HTML themes, visit http://startbootstrap.com!
 */
 
@@ -13,7 +13,6 @@ html, body {
 }
 
 body {
-    padding-top: 50px;
     padding-bottom: 20px;
     background:#efefef url("../images/bkg-pat.png");
 }
@@ -65,20 +64,24 @@ img:hover{
 
 /* 3/4 Page Height Carousel Customization */
 .carousel {
-    height: 75px;
+   height: 75%;
+}
+
+.carousel-inner .main .fill img {
+    height: 500px;
 }
 
 .item,
 .active,
 .carousel-inner {
-    height: 75%;
+    height: 100%;
     width: 100%; /* Set width to 100% */
     margin: auto;
 }
 /* Home Page Carousel */
 
 header.carousel {
-    height: 75%;
+    height: 100%;
 }
 
 header.carousel .item,
@@ -141,7 +144,7 @@ footer {
     .carousel {
         height: 70%;
         /* adjust the carousel height so it looks good on phones */
-        display: none; 
+        display: none;
         /* Hide the carousel text when the screen is less than 600 pixels wide */
     }
 }
@@ -294,8 +297,8 @@ footer {
    -o-transition: all 0.2s ease-in-out;
    -ms-transition: all 0.2s ease-in-out;
    transition: all 0.2s ease-in-out;
-    }   
-    
+    }
+
     /***** styling the flipping box**/
     #f1_container {
   position: relative;
@@ -331,4 +334,12 @@ footer {
   color: white;
   text-align: center;
   background-color: #aaa;
+}
+.navbar {
+    background: transparent;
+    border: 0;
+}
+
+.collapse .navbar-nav li a{
+    color: #ff9900;
 }
