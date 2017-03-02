@@ -18,7 +18,7 @@
         <div class="col-sm-8">
             <h3>Let's Get In Touch!</h3>
 
-            <form role="form" method="POST" action="#/PHP_Scripts/contact.php">
+            <form role="form" method="POST" action="PHP_Scripts/sendmail.php">
                 <div class="row">
                     <div class="form-group col-lg-4">
                         <label for="input1">Name</label>
@@ -87,7 +87,7 @@
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1989.648382904865!2d9.297514975833893!3d4.161946674377226!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNMKwMDknNDMuMCJOIDnCsDE3JzU1LjAiRQ!5e0!3m2!1sen!2scm!4v1474547888146" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
         </div>
 <hr>
-<?php require_once '../PHP_Scripts/sendemail.php';?>
+<?php require_once 'PHP_Scripts/sendmail.php';?>
 </div><!-- /.container -->
 <br>
 

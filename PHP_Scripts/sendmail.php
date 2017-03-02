@@ -1,14 +1,14 @@
 <?php
-	if (isset($_POST["submit"])) {
+
+	if ($_SERVER["REQUEST_METHOD"] == "POST") {
 		$name = $_POST['contact_name'];
 		$email = $_POST['contact_email'];
 		$message = $_POST['contact_message'];
 		$from = $email; 
 		$to = 'persiderosalie@gmail.com'; 
-		$subject = 'Message from Contact ABEBOH';
+		$subject = $_POST['contact_subject'];
 		
 		$body = "From: $name\n E-Mail: $email\n Message:\n $message";
- 
 		// Check if name has been entered
 		if (!$_POST['contact_name']) {
 			$errName = 'Please enter your name';
@@ -49,8 +49,8 @@
 		$mail->SMTPAuth = true;
 		
 		//Provide username and password     
-		$mail->Username = "rosalieperside@gmail.com";
-		$mail->Password = "perper2014"; 
+		$mail->Username = "persiderosalie@gmail.com";
+		$mail->Password = ""; 
 
 		//If SMTP requires TLS encryption then set it
 		$mail->SMTPSecure = "tls"; 
