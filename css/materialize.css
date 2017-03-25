@@ -3975,13 +3975,7 @@ nav ul a span.badge {
   }
 }
 
-nav {
-  color: #fff;
-  background-color: #ee6e73;
-  width: 100%;
-  height: 56px;
-  line-height: 56px;
-}
+
 
 nav.nav-extended {
   height: auto;
@@ -4164,27 +4158,7 @@ nav .input-field label.active i {
   color: #fff;
 }
 
-.navbar-fixed {
-  position: relative;
-  height: 56px;
-  z-index: 997;
-}
 
-.navbar-fixed nav {
-  position: fixed;
-}
-
-@media only screen and (min-width: 601px) {
-  nav.nav-extended .nav-wrapper {
-    min-height: 64px;
-  }
-  nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
-    height: 64px;
-    line-height: 64px;
-  }
-  .navbar-fixed {
-    height: 64px;
-  }
 }
 
 @font-face {
@@ -4257,12 +4231,14 @@ html {
   font-size: 2.92rem;
   line-height: 110%;
   margin: 1.46rem 0 1.168rem 0;
+  font-family: comic;
 }
 
 .small {
   font-size: 1.64rem;
   line-height: 110%;
   margin: 0.82rem 0 0.656rem 0;
+  font-family: comic;
 }
 
 em {
@@ -4611,7 +4587,7 @@ small {
   color: #ffab40;
   margin-right: 24px;
   transition: color .3s ease;
-  text-transform: uppercase;
+  //text-transform: uppercase;
 }
 
 .card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating):hover {
@@ -7744,8 +7720,8 @@ input[type=range]:focus::-ms-fill-upper {
 
 .carousel .carousel-item {
   display: none;
-  width: 200px;
-  height: 200px;
+  width: 800px;
+  height: 400px;
   position: absolute;
   top: 0;
   left: 0;
