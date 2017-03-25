@@ -4253,13 +4253,13 @@ html {
 
 
 
-h3 {
+.big{
   font-size: 2.92rem;
   line-height: 110%;
   margin: 1.46rem 0 1.168rem 0;
 }
 
-h5 {
+.small {
   font-size: 1.64rem;
   line-height: 110%;
   margin: 0.82rem 0 0.656rem 0;
