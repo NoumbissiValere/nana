@@ -134,8 +134,8 @@
 
     <div class="container">
 
-        <div class="row">
-            <div class="col-lg-12 text-center" id ="staggered-test">
+        <div class="row ">
+            <div class="col-lg-12 text-center bounceInLeft wow" id ="staggered-test">
                 <h2>Display Some Work on the Home Page Portfolio</h2>
                 <hr>
             </div>
@@ -201,7 +201,7 @@
             </div>
                 </a>
             </div>
-            <div class="col-lg-4 col-md-4 col-sm-6">
+            <div class="col-lg-4 col-md-4 col-sm-6" id = "staggered-test">
                 <a href="https://rosalieper.github.io/angularjsApp/#/portfolio-item">
                  <div id="f1_container">
                 <div id="f1_card" class="shadow">
@@ -276,7 +276,7 @@
 
 <div class="section-colored">
 
-    <div class="container">
+    <div class="container wow bounceInLeft" id = "staggered-test">
 
         <div class="row" id="abebohtech">
             <div class="col-lg-6 col-md-6 col-sm-6">
@@ -385,7 +385,7 @@
 
 <div class="section">
 
-    <div class="container">
+    <div class="container wow bounceInRight">
 
         <div class="row">
             <div class="col-lg-6 col-md-6 col-sm-6">
@@ -511,7 +511,7 @@
             <p>For more information check the FAQ page or contact us, visit ABEBOH!</p>
         </div>
         <div class="col-lg-4 col-md-4">
-            <a class="btn  btn-warning pull-right waves-effect waves-light" href="https://rosalieper.github.io/nana/#/contact">Contact Us!</a>
+            <a class="btn  btn-warning pull-right waves-effect waves-light wow pulse" data-wow-iteration="infinite" data-wow-duration="1500ms" href="https://rosalieper.github.io/nana/#/contact">Contact Us!</a>
         </div>
     </div>
     <!-- /.row -->
@@ -527,18 +527,24 @@
       //scroll fire
 
       var options = [
-      {div: '#staggered-test', offset: 50, callback: function(el) {
+      {selector: '#staggered-test', offset: 50, callback: function(el) {
         Materialize.toast("This is our ScrollFire Demo!", 1500 );
       } },
-      {div: '#staggered-test', offset: 205, callback: function(el) {
-        Materialize.toast("Please continue scrolling!", 1500 );
-      } },
-      {div: '#staggered-test', offset: 400, callback: function(el) {
-        Materialize.showStaggeredList($(el));
-      } }
+      {selector: '#staggered-test', offset: 205, callback: 'Materialize.toast("Please continue scrolling!", 1500 )' },
+      {selector: '#staggered-test', offset: 400, callback: 'Materialize.showStaggeredList("#staggered-test")' }
     ];
     Materialize.scrollFire(options);
     });
+        wow = new WOW(
+      {
+        animateClass: 'animated',
+        offset:       100,
+        callback:     function(box) {
+          console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+        }
+      }
+    );
+    wow.init();
       </script>
 <!-- /.container -->
 <script src="js/welcome.js"></script> <!-- Resource jQuery for the welcome to abeboh animation -->
