@@ -30,12 +30,12 @@
                     </div>
                     <div class="form-group col-lg-4">
                         <label for="input3">Subject</label>
-                        <input type="subject" name="contact_subject" class="form-control" id="input3" ng-model = "subject" required>
+                        <input type="text" name="contact_subject" class="form-control" id="input3" required>
                     </div>
                     <div class="clearfix"></div>
                     <div class="form-group col-lg-12">
                         <label for="input4">Message</label>
-                        <textarea name="contact_message" class="form-control" rows="6" id="input4" required><span ng-bind = "subject"></span></textarea>
+                        <textarea name="contact_message" class="form-control" rows="6" id="input4" required></textarea>
                     </div>
                     <div class="form-group col-lg-12">
                         <input type="hidden" name="save" value="contact">
