@@ -3,8 +3,8 @@
     <div class="row">
 
         <div class="col-lg-12">
-            <h1 class="page-header">About
-                <small>It's Nice to Meet You!</small>
+            <h1 class="page-header w3-text-orange"><b>About</b>
+                <small class="w3-text-orange"><b>It's Nice to Meet You!</b></small>
             </h1>
         </div>
 
@@ -12,56 +12,56 @@
 
     <div class="row">
 
-        <div class="col-md-6">
+        <div class="col-md-6 " style="height: 500px">
              <!-- Header Carousel -->
-    <header id="myCarousel" class="carousel slide">
+    <header id="myCarousel" class="carousel slide w3-content w3-section">
         <!-- Indicators -->
-        <ol class="carousel-indicators">
+        <!--<ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
             <li data-target="#myCarousel" data-slide-to="1"></li>
             <li data-target="#myCarousel" data-slide-to="2"></li>
             <li data-target="#myCarousel" data-slide-to="3"></li>
             <li data-target="#myCarousel" data-slide-to="4"></li>
-        </ol>
+        </ol>-->
 
         <!-- Wrapper for slides -->
         <div class="carousel-inner">
-            <div class="item">
+            <div class="item mySlides">
                 <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide One');">
-                    <img src="images/1001.jpg" alt="ones and zeros" width="100%" height="350">
+                    <img src="images/1001.jpg" alt="ones and zeros" width="100%" height="100%">
                 </div>
                 <div class="carousel-caption">
                     <h2>ABEBOH</h2>
                     <p>A goal is a vision with a plan and a date line</p>
                 </div>
             </div>
-            <div class="item">
+            <div class="item mySlides">
                 <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Two');">
-                    <img src="images/drive.jpg" alt="logo" width="100%" height="350">
+                    <img src="images/drive.jpg" alt="logo" width="100%" height="100%">
                 </div>
                 <div class="carousel-caption">
                     <h2>Caption 2</h2>
                 </div>
             </div>
-            <div class="item">
+            <div class="item mySlides">
                 <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Three');">
-                    <img src="images/os.jpg" alt="logo" width="100%" height="350">
+                    <img src="images/os.jpg" alt="logo" width="100%" height="100%">
                 </div>
                 <div class="carousel-caption">
                     <h2>Caption 3</h2>
                 </div>
             </div>
-            <div class="item active">
+            <div class="item active mySlides">
                 <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Three');">
-                    <img src="images/ABEBOH.jpg" alt="logo"width="100%" height="350" >
+                    <img src="images/ABEBOH.jpg" alt="logo" width="100%" height="100%" >
                 </div>
                 <div class="carousel-caption">
                     <h2>Caption 3</h2>
                 </div>
             </div>
-            <div class="item">
+            <div class="item mySlides">
                 <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Three');">
-                    <img src="images/lock.jpg" alt="logo"width="100%" height="350">
+                    <img src="images/lock.jpg" alt="logo" width="100%" height="100%">
                 </div>
                 <div class="carousel-caption">
                     <h2>Caption 3</h2>
@@ -78,15 +78,15 @@
         </a>
     </header>
         </div>
-        <div class="col-md-6">
-            <h2>Welcome to ABEBOH </h2>
+        <div class="col-md-6 w3-card-8" style="height: 500px">
+            <h2 class="w3-text-orange"><b>Welcome to ABEBOH </b></h2>
 
             ABEBOH  is a Company that comprises of three departments Located at Mile 18 Buea.
             Mile 18 is located along the Doula-Buea-Kumba Highway.
             ABEBOH 3 departments are;<br />
-            <li>-ABEBOH Technology<br /></li>
-            <li>-ABEBOH Records<br /></li>
-            <li>-ABEBOH EDUHEPUP<br /></li>
+            <li>-<span class="w3-text-orange"><b>ABEBOH Technology</b></span><br /></li>
+            <li>-<span class="w3-text-orange"><b>ABEBOH Records</b></span><br /></li>
+            <li>-<span class="w3-text-orange"><b>ABEBOH EDUHEPUP</b></span><br /></li>
 
             ABEBOH is a software and Hardware Building Company,
             a music industry and educational organization, 
@@ -102,13 +102,14 @@
             With our strong Management Team, we assure you with the best Products .<br>
         </div>
 
+
     </div>
 
     <!-- Team Member Profiles -->
 
             <div class="row">
             <div class="col-md-12">
-                <h2 class="page-header">Our Team</h2>
+                <h2 class="page-header w3-orange w3-container"><b>Our Team</b></h2>
             </div>
             <div class="col-md-4 text-center wow bounceInLeft">
                 <div class="thumbnail">
@@ -335,3 +336,19 @@
 
 </div>
 <!-- /.container -->
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 4000);    
+}
+</script>
