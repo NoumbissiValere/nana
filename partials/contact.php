@@ -39,7 +39,7 @@
                     </div>
                     <div class="form-group col-lg-12">
                         <input type="hidden" name="save" value="contact">
-                        <button type="submit" class="btn btn-warning">Submit</button>
+                        <button type="submit" class="w3-orange w3-hover-amber w3-xlarge w3-round-xxlarge w3-card-8">Submit</button>
                     </div>
                 </div>
             </form>
